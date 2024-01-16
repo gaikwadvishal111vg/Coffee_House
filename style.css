@@ -1,0 +1,108 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+nav{
+    background: url("https://i.pinimg.com/736x/e1/c2/3a/e1c23ac34847740f672717c89a62ae37.jpg");
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    box-shadow: 3px 3px rgb(106, 94, 80), 0em 0 .4em rgb(158, 146, 146);
+}
+input:read-only {
+    font-weight: bold;
+    color: white;
+  }
+input{
+    background-color: brown;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 15%;  
+    border-radius: 10px; 
+   
+}
+.choose{
+   
+    /* height: 300px;
+    width: 90%;
+padding: 5px; */
+justify-content: space-evenly;
+display: flex;
+text-align: center;
+}
+.info1{
+    height: 200px;
+    width: 90%;
+padding: 5px;
+flex-direction: column;
+display: flex;
+/*    
+align-items: center;
+justify-content: center; */
+}
+
+
+
+img{
+    
+    width: 30%;
+    height: 60%;
+    border-radius: 50%;
+    box-shadow:0px 8px 8px black; ;
+    /* box-shadow: rgb(194, 183, 183);
+    box-shadow: 5px 5px rgb(43, 42, 42), 0em 0 .4em rgb(120, 119, 119); */
+}
+
+img:hover{
+        transform: scale(1.2);
+        float: left;
+    }
+    .readit{
+        border: 3px solid rgb(101, 75, 92);
+        background-color:rgb(165, 42, 42, 0.3);;
+        height: 420px;
+        width: 80%;
+        padding-left: 25px;
+        padding-top:25px ;
+        padding-bottom: 0px;
+        margin-top: 80px;
+        border-radius: 15px;
+    }
+.moveon{
+    padding-bottom: 15px;
+    padding-top: 0px;
+    color: brown;
+}
+
+body{
+    background-color: pink;
+}
+.list{
+    border: 2px solid black;
+    height: 420px;
+        width: 80%;
+       margin-top: 30px;
+       border-radius: 15px;
+       background-color:rgb(165, 42, 42, 0.3);;
+       color: brown;
+}
+h2 {
+    padding-top: 15px;
+    padding-left: 0px;
+    color: brown;
+}
+li{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.drag{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.move{
+    padding-left: 20px;
+}
